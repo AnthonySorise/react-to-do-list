@@ -6,7 +6,10 @@ const ListItem = props => {
     return (
         <tr className="listItem">
             <td>
-                <ul><li>{props.text}</li></ul>
+                <ul><li></li></ul>
+            </td>
+            <td>
+                {props.text}
             </td>
             <td>
                 {props.dateTime}

@@ -1,0 +1,21 @@
+.listItem {
+    font-size: 0.9vmax;
+}
+.listItem td{
+    padding-right: 20px;
+}
+.listItem td:first-of-type{
+    max-width: 70vmax;
+    overflow-wrap: break-word;
+}
+.listItem td:nth-of-type(2){
+    font-weight: bold;
+}
+.listItem td:nth-of-type(3){
+    cursor: pointer;
+    user-select: none;
+}
+.listItem td:nth-of-type(3) .closeText{
+    color:#0095ff;
+    font-weight: bold;
+}

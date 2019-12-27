@@ -16,4 +16,5 @@
     border-radius: 5px;
     margin-left: 5px;
     background: rgba(0, 149, 255, 0.15);
+	cursor: pointer;
 }

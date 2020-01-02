@@ -19,7 +19,6 @@ const ToDoList = props => {
         let newListItems = [];
         for(let i = 0; i < listItems.length; i++){
             newListItems.push(listItems[i]);
-            console.log(listItems[i])
         }
         newListItems.push(newItem);
         setListItems(newListItems);

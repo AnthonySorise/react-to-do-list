@@ -39,7 +39,7 @@ const ToDoList = props => {
     return (
         <div className="toDoList">
             <MessageBanner text={messageText.current}></MessageBanner>
-            <h1>Task's List</h1>
+            <h1>To Do</h1>
             <table>
                 <tbody>
                 {listItems.map((item, i) =>
